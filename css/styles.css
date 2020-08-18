@@ -1,0 +1,197 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.icon{
+    padding: 3rem;
+    color: #ff4c68;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: orange;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+
+}
+
+.title-image{
+    width: 12%;
+    float: right;
+    position: relative;
+    top: -350px;
+    left: -400px;
+    transform: rotate(25deg);
+    
+}
+
+ p{
+     color:#8f8f8f
+ }
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4rem;
+    line-height: 2;
+}
+
+#features{
+    padding: 7% 15% ;
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+    
+}
+
+.col-lg-6{
+    padding: 20px;
+}
+
+#cta{
+    background-color: #ff4c68;
+    color:#fff;
+    padding: 7% 15%;
+    text-align: center ;
+}
+
+.cta-heading{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+#footer{
+    text-align: center;
+}
+.social-icons{
+    margin: 40px 30px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light"
+}
+.testimonial-pic {
+    width: 30%;
+    border-radius: 100%;
+    padding:20px;
+}
+.press-logo{
+    width: 15%;
+    margin-right:20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.testimonial-image{
+    width: 30%;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 10%;
+}
+
+h3{
+    font-family: 'Oswald', sans-serif;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+section.pricing {
+    background: #ff4c68;
+    background: linear-gradient(to right,  #fff,#f8f8f8ff); 
+  }
+  
+  .pricing .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .pricing hr {
+    margin: 1.5rem 0;
+  }
+  
+  .pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+  }
+  
+  .pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .pricing .card-price .period {
+    font-size: 0.8rem;
+  }
+  
+  .pricing ul li {
+    margin-bottom: 1rem;
+  }
+  
+  .pricing .text-muted {
+    opacity: 0.7;
+  }
+  
+  .pricing .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+  }
+  
+  /* Hover Effects on Card */
+  
+  @media (min-width: 992px) {
+
+    #title{
+        text-align: center;
+    }
+
+    }
+    .pricing .card:hover {
+      margin-top: -.25rem;
+      margin-bottom: .25rem;
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+    .pricing .card:hover .btn {
+      opacity: 1;
+    }
+  }
